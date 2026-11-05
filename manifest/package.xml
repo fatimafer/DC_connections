@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AWS_Redshift</members>
+        <members>AWS_s3</members>
+        <members>big_query_demo</members>
+        <members>gcloud_storage</members>
+        <name>DataKitObjectTemplate</name>
+    </types>
+    <types>
+        <members>Connectors</members>
+        <name>DataPackageKitDefinition</name>
+    </types>
+    <types>
+        <members>Connectors_1793751027921</members>
+        <members>Connectors_1793751028025</members>
+        <members>Connectors_1793751028112</members>
+        <members>Connectors_1793751028213</members>
+        <name>DataPackageKitObject</name>
+    </types>
+    <version>68.0</version>
+</Package>

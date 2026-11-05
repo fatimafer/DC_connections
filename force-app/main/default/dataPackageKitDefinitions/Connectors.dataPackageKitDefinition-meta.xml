@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataKitSource>LOCAL</dataKitSource>
+    <dataKitType>SANDBOX</dataKitType>
+    <dataSpaceDefinitionDevName>default</dataSpaceDefinitionDevName>
+    <deploymentOrder>{&quot;isAutoSequence&quot;:true,&quot;sequence&quot;:[{&quot;devName&quot;:&quot;AWS_s3&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;,&quot;id&quot;:&quot;9cgaj000001rel7AAA&quot;},{&quot;devName&quot;:&quot;gcloud_storage&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;,&quot;id&quot;:&quot;9cgaj000001remjAAA&quot;},{&quot;devName&quot;:&quot;big_query_demo&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;,&quot;id&quot;:&quot;9cgaj000001reoLAAQ&quot;},{&quot;devName&quot;:&quot;AWS_Redshift&quot;,&quot;type&quot;:&quot;MktDataConnection&quot;,&quot;id&quot;:&quot;9cgaj000001rfvhAAA&quot;}]}</deploymentOrder>
+    <developerName>Connectors</developerName>
+    <isDeployed>false</isDeployed>
+    <isEnabled>false</isEnabled>
+    <masterLabel>Connectors</masterLabel>
+    <useDeterministicNaming>false</useDeterministicNaming>
+    <versionNumber>3.0</versionNumber>
+</DataPackageKitDefinition>
