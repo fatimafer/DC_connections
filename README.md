@@ -20,7 +20,7 @@ Antes de comenzar, es necesario crear una conexión privada a AWS Redshift en el
 https://help.salesforce.com/s/articleView?id=data.c360_a_private_connect_redshift.htm&type=5
 
 
-## Instalar el Datakit
+### Subir datos de prueba al Playground Creado
 
 Después, descargamos los datos de prueba.
 
