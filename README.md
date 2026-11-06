@@ -117,16 +117,19 @@ sf project deploy start --manifest manifest/package.xml --target-org coral-cloud
 ## Activar las conexiones
 
 Dado que estas conexiones viajan sin credenciales por motivos de seguridad, una vez importadas permanecerán inactivas.
-Para comprobarlo, hacemos click en el engranaje de la parte superior derecha y seleccionamos Data Cloud Setup
-![alt text](images/DC_Setup.png)
 
-En el botón de búsqueda, escribimos Other Connectors y hacemos click en Other Connector en el panerl izquierdo.
-Podemos observar que, efectivamente están inactivas
-![alt text](images/connectors.png)
+* Para comprobarlo, hacemos click en el engranaje de la parte superior derecha y seleccionamos Data Cloud Setup
 
-Para asignar las credenciales y datos de conexión faltantes hacemos click en activar
-![alt text](images/activate.png)
+    ![alt text](images/DC_Setup.png)
 
-En este ejemplo vemos que access key y secret key están vacíos, por lo tanto habría que completarlos.
-Además hay que revisar si los datos de Bucket Name y Parent Directory siguen siendo correctos o es necesario modificarlos según los nombres asignados en nuestras plataformas cloud.
-![alt text](images/parameters.png)
+* En el botón de búsqueda, escribimos Other Connectors y hacemos click en Other Connector en el panerl izquierdo. Podemos observar que, efectivamente están inactivas
+
+    ![alt text](images/connectors.png)
+
+* Para asignar las credenciales y datos de conexión faltantes hacemos click en activar
+
+    ![alt text](images/activate.png)
+
+* En este ejemplo vemos que access key y secret key están vacíos, por lo tanto habría que completarlos Además hay que revisar si los datos de Bucket Name y Parent Directory siguen siendo correctos o es necesario modificarlos según los nombres asignados en nuestras plataformas cloud.
+
+    ![alt text](images/parameters.png)
