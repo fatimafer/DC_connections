@@ -24,7 +24,8 @@ https://help.salesforce.com/s/articleView?id=data.c360_a_private_connect_redshif
 
 Después, descargamos los datos de prueba.
 
-Para ello es necesario disponer de un terminal con SALESFORCE CLI instalado. Para instalar Salesforce CLI en un terminal, es necesario seguir estas instrucciones
+Para ello es necesario disponer de un terminal con SALESFORCE CLI instalado. 
+Para instalar Salesforce CLI en un terminal, es necesario seguir estas instrucciones
 https://developer.salesforce.com/docs/platform/sfdx-setup/guide/sfdx-setup-install-cli.html
 
 Clonamos el repositorio con los datos de prueba Y nos movemos a su carpeta
@@ -97,6 +98,15 @@ sf package install -p 04tHr000000ku4k -w 10
 ## Instalar el Datakit
 
 Una vez realizados los pasos anteriores abrimos un terminal con Salesforce CLI instalado, preferentemente en VSCODE
+
+
+Clonamos el respositorio y nos situamos en la carpeta donde lo hemos clonado
+```
+https://github.com/fatimafer/DC_connections.git 
+```
+```
+cd DC_connections
+```
 
 Si es otra terminal o no conectados a al playground creado, nos conectamos
 ```
