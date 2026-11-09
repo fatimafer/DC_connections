@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;connection&quot;:{&quot;connectorType&quot;:&quot;GCS&quot;,&quot;method&quot;:&quot;Egress&quot;,&quot;credentials&quot;:[],&quot;lastModifiedDate&quot;:&quot;2026-11-08T23:33:27.000Z&quot;,&quot;editable&quot;:true,&quot;connectorLabel&quot;:&quot;Google Cloud Storage&quot;,&quot;lastModifiedBy&quot;:{&quot;name&quot;:&quot;OrgFarm EPIC&quot;,&quot;id&quot;:&quot;005jV000003O7hlQAC&quot;,&quot;profilePhotoUrl&quot;:&quot;/img/userprofile/default_profile_45_v2.png&quot;},&quot;deletable&quot;:true,&quot;label&quot;:&quot;segments_gcloud_storage&quot;,&quot;params&quot;:[{&quot;paramName&quot;:&quot;bucketName&quot;,&quot;value&quot;:&quot;coral-cloud-demo&quot;},{&quot;paramName&quot;:&quot;parentDirectory&quot;,&quot;value&quot;:&quot;INPUT_Data_360_segments/&quot;}],&quot;url&quot;:&quot;/services/data/v68.0/ssot/connections/9cgjV000000GjNlQAK&quot;,&quot;accessType&quot;:&quot;Shared&quot;,&quot;createdDate&quot;:&quot;2026-11-08T23:33:25.000Z&quot;,&quot;createdBy&quot;:{&quot;name&quot;:&quot;OrgFarm EPIC&quot;,&quot;id&quot;:&quot;005jV000003O7hlQAC&quot;,&quot;profilePhotoUrl&quot;:&quot;/img/userprofile/default_profile_45_v2.png&quot;},&quot;name&quot;:&quot;segments_gcloud_storage&quot;,&quot;namespace&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;/cdp/images/connectors/GCS.svg&quot;,&quot;id&quot;:&quot;9cgjV000000GjNlQAK&quot;,&quot;sentosEnabled&quot;:false,&quot;syncStatus&quot;:&quot;None&quot;,&quot;status&quot;:&quot;Active&quot;}}</entityPayload>
+    <masterLabel>segments_gcloud_storage</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>segments_gcloud_storage</sourceObject>
+    <sourceObjectType>MktDataConnection</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>

@@ -5,6 +5,8 @@
         <members>AWS_s3</members>
         <members>big_query_demo</members>
         <members>gcloud_storage</members>
+        <members>segments_gcloud_storage</members>
+        <members>segments_s3</members>
         <name>DataKitObjectTemplate</name>
     </types>
     <types>
@@ -16,6 +18,8 @@
         <members>Connectors_1793751028025</members>
         <members>Connectors_1793751028112</members>
         <members>Connectors_1793751028213</members>
+        <members>Connectors_1794183241147</members>
+        <members>Connectors_1794183241575</members>
         <name>DataPackageKitObject</name>
     </types>
     <version>68.0</version>
