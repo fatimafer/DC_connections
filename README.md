@@ -27,12 +27,22 @@ Para ello es necesario disponer de un terminal con SALESFORCE CLI instalado.
 Para instalar Salesforce CLI en un terminal, es necesario seguir estas instrucciones
 https://developer.salesforce.com/docs/platform/sfdx-setup/guide/sfdx-setup-install-cli.html .
 
+Vamos a nuestro home o carpeta desde donde queramos trabajar.
+```
+cd ~
+```
+
 Clonamos el repositorio con los datos de prueba Y nos movemos a su carpeta.
 ```
 git clone https://github.com/trailheadapps/coral-cloud
 ```
 ```
 cd coral-cloud
+```
+
+Si estamos conectados a otras org de Salesforce en CLI, nos desconectamos.
+```
+sf org logout
 ```
 
 Hacemos Login en Salesforce CLI y configuramos la organización como destino predterminado.
@@ -98,13 +108,23 @@ sf package install -p 04tHr000000ku4k -w 10
 
 Una vez realizados los pasos anteriores abrimos un terminal con Salesforce CLI instalado, preferentemente en VSCODE.
 
+Vamos a nuestro home o carpeta desde donde queramos trabajar.
+```
+cd ~
+```
+
 
 Clonamos el respositorio y nos situamos en la carpeta donde lo hemos clonado.
 ```
-https://github.com/fatimafer/DC_connections.git 
+git clone https://github.com/fatimafer/DC_connections.git
 ```
 ```
 cd DC_connections
+```
+
+Si estamos conectados a otras org de Salesforce en CLI, nos desconectamos.
+```
+sf org logout
 ```
 
 Si es otra terminal o no conectados a al playground creado, nos conectamos.
@@ -143,3 +163,7 @@ Dado que estas conexiones viajan sin credenciales por motivos de seguridad, una 
     Además hay que revisar si los datos de Bucket Name y Parent Directory siguen siendo correctos o es necesario modificarlos según los nombres asignados en nuestras plataformas cloud.
 
     ![alt text](images/parameters.png)
+
+
+## Seguir las instrucciones del siguiente repositorio
+Navegar hacia https://github.com/fatimafer/DC_objects.git y seguir las instrucciones    
